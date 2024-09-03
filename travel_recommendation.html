@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Web Application</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="tile">
+            TravelBoom
+        </div>
+        <div class="navigation-bar">
+            <a href="#HOME">HOME</a>
+            <a href="#ABOUT-US">ABOUT US</a>
+            <a href="#CONTACT">CONTACT</a>
+        </div>
+           <!-- <div class="search-container">
+                <input type="text" id="search-input" placeholder="Enter a destination ">
+                <button id="search-button">Search</button>
+                <button id="reset-button">Reset</button>-->
+                <div class="container">
+                    <h1>Place Recommendations</h1>
+                    <input type="text" id="keyword" placeholder="Enter keyword (beach, temple, country)">
+                    <button onclick="fetchRecommendations()">Get Recommendations</button>
+                    <div id="recommendations"></div>
+                </div>
+        </div>
+    </nav>
+    <section>
+        <div id="HOME">
+            <div class="home-page-1">
+            <h1>EXPLORE</h1>
+            <h1>DESTINATION</h1>
+            <h1>DREAM</h1>
+            </div>
+            <br>
+            <div class="home-page-2">
+            <p>Welcome to TravelBoom! Discover your next adventure with personalized travel recommendations.<br>
+                 Explore top destinations, hidden gems, and travel tips tailored just for you.<br>
+                 Start your journey now and make unforgettable memories with TravelBoom. Your adventure awaits!</p>
+                
+            </div>
+            <div class="home-page-3">
+                <button>BOOK NOW</button>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            
+            </div>
+        </div>
+        <br><BR></BR><BR></BR><BR></BR><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="ABOUT-US">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="about-heading">
+                <h1>ABOUT US</h1>
+            </div>
+            <div class="about-intro">
+                <p>
+
+                       Welcome to TravelBoom! 🌍<br>
+
+
+At TravelBoom, we transform your travel dreams into reality.<br>
+ Our platform offers personalized recommendations, uncovering hidden gems and must-see destinations tailored to your interests.
+ <br>Whether you’re an adventurer, a culture enthusiast, or a leisure traveler, TravelBoom guides you with expert tips and insights. 
+<br>Join our community of explorers and embark on unforgettable journeys, one destination at a time.<br>
+ Your adventure starts here!
+                </p>
+            </div>
+            <div class="team-container">
+                <div class="team-member">
+                    <h2>John Doe</h2>
+                    <p>Project Manager</p>
+                </div>
+                <div class="team-member">
+                    <h2>Jane Smith</h2>
+                    <p>Full stack Developer</p>
+                </div>
+                <div class="team-member">
+                    <h2>Emily Johnson</h2>
+                    <p>UI/UX Designer</p>
+                </div>
+                <div class="team-member">
+                    <h2>Michael Brown</h2>
+                    <p>React developer</p>
+                </div>
+            </div>
+
+        </div>
+        <BR><BR></BR><BR></BR><BR></BR><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="CONTACT">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        
+
+            </div>
+            <div class="contact-div">
+                <div class="contact-heading">
+                <h1>CONTACT US</h1>
+                </div>
+        
+              <div class="contact-form-container">
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

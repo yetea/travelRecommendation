@@ -1,0 +1,251 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    /*background-image: url('https://th.bing.com/th/id/OIP.SSlQmNy6Hp3dRwd3b15ASAAAAA?rs=1&pid=ImgDetMain');*/
+    background-image: url('https://wallpaperaccess.com/full/1564387.jpg');
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-attachment: fixed;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.203);
+    height: 70px;
+    display: flex;
+
+}
+.tile{
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+a:hover{
+    color:azure;
+    font-weight: 900;
+}
+.navigation-bar{
+ text-align: center;
+ margin-left: 100px;
+ margin-top: 10px;
+ 
+}
+/*
+.search-container {
+    margin-left:500px;
+    text-align: right;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+*/
+.home-page-1{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    line-height: 1.25;
+   
+}
+.home-page-2{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+}
+.home-page-3{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: large;
+    
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    cursor: pointer;
+
+}
+.home-page-3:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon:hover {
+    background-color: #555;
+}
+.about-heading{
+    
+    text-align: center;
+    color: white;
+}
+.about-intro{
+
+    margin-top: 10px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    margin-bottom: 50px;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: rgba(21, 105, 174, 0.811);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.team-member h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #f3fffd;
+}
+.contact-div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    gap: 20px;
+    justify-content: center;
+
+}
+.contact-heading{
+    color: #ffffff;
+    text-align: center;
+    color: white;
+
+}
+
+.contact-form-container {
+    margin-left: 10%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+   /*width: 80px;
+    max-width: 200px;*/
+    margin-left: 550px;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.recommendation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.recommendation img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.recommendation p {
+    margin: 0;
+}
